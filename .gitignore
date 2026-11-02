@@ -1,0 +1,9 @@
+@"
+store/
+logs/
+*.dd
+*.dd.part
+config/sentinel.yaml
+.venv/
+__pycache__/
+"@ | Set-Content -Encoding utf8 .gitignore
